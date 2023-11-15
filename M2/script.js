@@ -5,38 +5,38 @@ let filter = true;
 let hover = true;
 image1.addEventListener('mouseover',function(e){
     if(filter){
-        image1.src = "Images/Group 73.png"
+        image1.src = "M2/Images/Group 73.png"
     }
     else{
-        image1.src = "Images/Group 91.png";
+        image1.src = "M2/Images/Group 91.png";
     }
 });
 image1.addEventListener('mouseout',function(e){
     if(filter){
-        image1.src = "Images/Group 74.png"
+        image1.src = "M2/Images/Group 74.png"
     }
     else{
-        image1.src = "Images/Group 90.png";
+        image1.src = "M2/Images/Group 90.png";
     }
 });
 image1.addEventListener('click',function(e){
     if(hover){
         if(!filter){
-            image1.src = "Images/Group 73.png"
+            image1.src = "M2/Images/Group 73.png"
             
         }
         else{
-            image1.src = "Images/Group 91.png";
+            image1.src = "M2/Images/Group 91.png";
     
         }
     }
     else{
         if(filter){
-            image1.src = "Images/Group 74.png"
+            image1.src = "M2/Images/Group 74.png"
             
         }
         else{
-            image1.src = "Images/Group 90.png";
+            image1.src = "M2/Images/Group 90.png";
     
         }
     }
